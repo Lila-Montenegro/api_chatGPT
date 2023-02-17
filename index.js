@@ -15,12 +15,12 @@ const client = axios.create({
 
 const params = {
   model: "text-davinci-003",
-  prompt: "Say this is a test",
-  max_tokens: 7,
+  prompt: "tell me one random name",
+  max_tokens: 56,
   temperature: 0.5,
 };
 
 client
   .post("https://api.openai.com/v1/completions", params)
-  .then((result) => console.log("result :>> ", result.data.choices[0].text))
-  .catch((err) => console.log("err :>> ", err));
+  .then((result) => console.log(result.data.choices[0].text))
+  .catch((err) => console.log(err));
