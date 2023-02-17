@@ -1,0 +1,27 @@
+{
+  "name": "api_chatgpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lila-Montenegro/api_chatGPT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lila-Montenegro/api_chatGPT/issues"
+  },
+  "homepage": "https://github.com/Lila-Montenegro/api_chatGPT#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "axios": "^1.3.3",
+    "dotenv": "^16.0.3"
+  }
+}
